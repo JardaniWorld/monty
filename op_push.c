@@ -3,7 +3,7 @@
 /**
  * push - This function adds a new node at the beginning of the stack
  *
- * @stack: The head of the stack
+ * @stack: Head of the stack
  * @param: The value to adds on the stack
  *
  * Return: Nothing
