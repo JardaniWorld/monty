@@ -47,7 +47,7 @@ void handle_cerror(int errno, char *opcode, unsigned int line)
 		case ERR_BAD_INST:
 			fprintf(stderr, "L%d: unknown instruction %s\n", line, opcode);
 			break;
-												case ERR_BAD_MALL:
+		case ERR_BAD_MALL:
 			fprintf(stderr, "Error: malloc failed\n");
 			break;
 		default:
